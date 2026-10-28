@@ -1,0 +1,8 @@
+# Direct project dependencies pinned from the mlchem conda environment
+accfg==0.0.9
+gemmi==0.7.5
+networkx==3.4.2
+numpy==2.2.6
+pytest==8.3.4
+rdkit==2025.09.5
+scipy==1.15.3

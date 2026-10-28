@@ -1,0 +1,7 @@
+[Note 1]. Add rest of atoms
+[Note 2]. Add more atoms
+[Note 3]. Safely remove function
+[Note 4]. Safely remove function
+[Note 5]. build_utils.py: extract_atom_arrays() "atom_map": atom_map if atom_map.any() else None, may invalidate and throw error for non-dummies
+[Note 6]. Unlabeled: create test cases for /chem/dummy/... submodule
+KNOWN ISSUE: Deuterium and other H isotopes are not compatible currently

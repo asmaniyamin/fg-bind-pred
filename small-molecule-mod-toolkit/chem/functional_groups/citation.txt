@@ -1,0 +1,10 @@
+@article{liu2025accfg,
+  title={AccFG: Accurate Functional Group Extraction and Molecular Structure Comparison},
+  author={Liu, Xuan and Swaminathan, Sarathkrishna and Zubarev, Dmitry and Ransom, Brandi and Park, Nathaniel and Schmidt, Kristin and Zhao, Huimin},
+  journal={Journal of Chemical Information and Modeling},
+  volume={65},
+  number={16},
+  pages={8593--8602},
+  year={2025},
+  publisher={ACS Publications}
+}

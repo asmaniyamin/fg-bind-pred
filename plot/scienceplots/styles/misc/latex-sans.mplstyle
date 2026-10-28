@@ -1,0 +1,15 @@
+# Copyright (c) 2018 John Garrett
+# SPDX-License-Identifier: MIT
+# See plot/SCIENCEPLOTS_LICENSE.txt.
+
+# Latex with sans-serif fonts
+
+mathtext.fontset : dejavusans
+
+# Use LaTeX for math formatting
+text.usetex : True
+
+# In general, we need to be careful with the preamble. A common font for
+# sans serif LaTeX is cmbright. However, it does not support bold fontweights
+# so we use sfmath instead. 
+text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb} \usepackage{sfmath}

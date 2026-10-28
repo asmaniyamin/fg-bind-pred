@@ -1,0 +1,9 @@
+# Copyright (c) 2018 John Garrett
+# SPDX-License-Identifier: MIT
+# See plot/SCIENCEPLOTS_LICENSE.txt.
+
+# Add fonts for CJK characters (traditional Chinese)
+# See FAQ in README for installation instructions
+
+font.serif : Noto Serif CJK TC
+font.family : serif

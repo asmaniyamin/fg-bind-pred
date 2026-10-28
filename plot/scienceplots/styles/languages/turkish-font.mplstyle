@@ -1,0 +1,7 @@
+# Copyright (c) 2018 John Garrett
+# SPDX-License-Identifier: MIT
+# See plot/SCIENCEPLOTS_LICENSE.txt.
+
+# Add Latex packages for Turkish (Türkçe) fonts
+
+text.latex.preamble: \usepackage[turkish]{babel} \usepackage[T1]{fontenc} \usepackage{lmodern} \usepackage{amsmath} \usepackage{amssymb}

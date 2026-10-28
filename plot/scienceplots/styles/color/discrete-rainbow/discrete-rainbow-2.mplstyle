@@ -1,0 +1,9 @@
+# Copyright (c) 2018 John Garrett
+# SPDX-License-Identifier: MIT
+# See plot/SCIENCEPLOTS_LICENSE.txt.
+
+# Discrete rainbow color scheme with 2 colors
+# from Paul Tol's website: https://sronpersonalpages.nl/~pault/
+
+# Set color cycle
+axes.prop_cycle : cycler('color', ['1965B0', 'DC050C'])

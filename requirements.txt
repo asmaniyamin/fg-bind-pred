@@ -1,0 +1,9 @@
+-r small-molecule-mod-toolkit/requirements.txt
+# Additional direct imports used by the models and preparation scripts.
+torch
+torch-geometric
+matplotlib
+pandas
+requests
+tqdm
+biopython

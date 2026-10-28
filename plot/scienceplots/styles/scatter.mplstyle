@@ -1,0 +1,11 @@
+# Copyright (c) 2018 John Garrett
+# SPDX-License-Identifier: MIT
+# See plot/SCIENCEPLOTS_LICENSE.txt.
+
+# Matplotlib style for scatter plots
+
+# Set markers (style, color, no lines)
+axes.prop_cycle : (cycler('marker', ['o', 's', '^', 'v', '<', '>', 'd']) + cycler('color', ['0C5DA5', '00B945', 'FF9500', 'FF2C00', '845B97', '474747', '9e9e9e']) + cycler('ls', [' ', ' ', ' ', ' ', ' ', ' ', ' ']))
+
+# Set marker size
+lines.markersize : 3

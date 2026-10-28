@@ -1,0 +1,82 @@
+{
+  "profile_name": "prime_loops_ml_multiformat",
+  "description": "PrepWizard profile for ligand-bound protein structures with Prime loop filling, multiformat output, and batch concurrency limits for Linux.",
+  "scripts": {
+    "single_structure": "preprocess_linux.py",
+    "batch": "preprocess_batch_linux.py"
+  },
+  "batch_settings": {
+    "concurrency": 10,
+    "threads_per_job": 2,
+    "effective_host_flag": "localhost:2",
+    "output_formats": [
+      "maegz",
+      "pdb",
+      "cif"
+    ],
+    "output_subdirectories": [
+      "maegz",
+      "pdb",
+      "cif"
+    ]
+  },
+  "prepwizard_flags": [
+    "--fill-loops",
+    "--fill-sidechains",
+    "--assign-all-residues",
+    "--disulfides",
+    "--mse",
+    "--add-oxt",
+    "--epik-ph",
+    "7.4",
+    "--epik-pht",
+    "2.0",
+    "--max-states",
+    "1",
+    "--include-epik-states",
+    "--propka-ph",
+    "7.4",
+    "--sample-water",
+    "--minimize-adjustable-hydrogens",
+    "--rmsd",
+    "0.3",
+    "--force-field",
+    "S-OPLS",
+    "--water-distance",
+    "5.0",
+    "--preserve-structure-titles"
+  ],
+  "effective_single_structure_args": [
+    "--fill-loops",
+    "--fill-sidechains",
+    "--assign-all-residues",
+    "--disulfides",
+    "--mse",
+    "--add-oxt",
+    "--epik-ph",
+    "7.4",
+    "--epik-pht",
+    "2.0",
+    "--max-states",
+    "1",
+    "--include-epik-states",
+    "--propka-ph",
+    "7.4",
+    "--sample-water",
+    "--minimize-adjustable-hydrogens",
+    "--rmsd",
+    "0.3",
+    "--force-field",
+    "S-OPLS",
+    "--water-distance",
+    "5.0",
+    "--preserve-structure-titles",
+    "--host",
+    "localhost:2"
+  ],
+  "notes": [
+    "The batch runner prepares each structure once to .maegz and then converts that prepared structure to .pdb and .cif.",
+    "The --host flag is injected automatically by preprocess_batch_linux.py from batch_settings.threads_per_job.",
+    "The input_path and output_path positional arguments are intentionally not included here."
+  ]
+}
