@@ -1,0 +1,16 @@
+Per-Functional-Group Binding Contribution Prediction
+Copyright 2026 Asmani Yamin
+
+This product includes software developed by Asmani Yamin and contributors
+to the Per-Functional-Group Binding Contribution Prediction project.
+
+Project source code is licensed under the Apache License, Version 2.0.
+See LICENSE for the terms. Third-party components retain their own licenses.
+
+Third-party notices
+
+SciencePlots
+The vendored Python modules and styles in plot/scienceplots/ are licensed
+under the MIT License.
+Copyright (c) 2018 John Garrett
+See plot/SCIENCEPLOTS_LICENSE.txt for the complete license text.

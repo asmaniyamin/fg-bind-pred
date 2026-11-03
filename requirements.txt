@@ -1,0 +1,8 @@
+-r small-molecule-mod-toolkit/requirements.txt
+torch
+torch-geometric
+matplotlib
+pandas
+requests
+tqdm
+biopython
